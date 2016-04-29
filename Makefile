@@ -3,7 +3,7 @@
 all: test
 
 test: scanner.go tabinfo.go parse.go
-	go test
+	go test -v ./...
 
 scanner.go: scanner.l
 	nex -o scanner.go scanner.l

@@ -1,4 +1,5 @@
 # tabinfo
+[![Build Status](https://travis-ci.org/zyguan/tabinfo.svg)](https://travis-ci.org/zyguan/tabinfo)
 
 tabinfo is just a toy parser for `CREATE TABLE` sql statement. It's
 not fully functional and lacks of test. You may find the following
